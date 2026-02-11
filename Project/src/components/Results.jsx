@@ -1,0 +1,1 @@
+// This component will display the quiz results alongside the image obtained from the API

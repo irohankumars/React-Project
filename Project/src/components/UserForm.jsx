@@ -1,0 +1,1 @@
+//This component will have a search input that holds the name of the person taking the quiz for personalization
