@@ -8,15 +8,12 @@ export default function Header(){
     return (
         <>
         <div style={{display:"flex", flexDirection:"column", alignItems:"center"}} >
-        <h1>Which Element Are You?</h1>
-        <p>(based on completely random things)</p>
-        <nav>
-            <Link to="/">Home</Link> &nbsp; &nbsp; &nbsp;
-            <Link to="/quiz">Quiz</Link>
-        </nav>
-
-    
-
+            <h1>Which Element Are You?</h1>
+            <p>(based on completely random things)</p>
+            <nav>
+                <Link to="/">Home</Link> &nbsp; &nbsp; &nbsp;
+                <Link to="/quiz">Quiz</Link>
+            </nav>
         </div>
         </>
     )
