@@ -1,24 +1,14 @@
-//This component will hold the logic for displaying the questions
-
 import React from "react";
 
-export default function Question({question, options, onAnswer}){
-    return(
-        <div>
-            <h2>{question}</h2>
-            {options.map(function (option){
-                return(
-                    <button 
-                        key={option}
-                        onClick={function(){
-                            onAnswer(option);
-                        }}
-                    
-                    >
-                        {option}
-                    </button>
-                );
-            })}
-        </div>
-    );
+export default function Question({ question, options, onAnswer }) {
+  return (
+    <div>
+      <h2>{question}</h2>
+      {options.map((option, index) => (
+        <button key={index} onClick={() => onAnswer(option)}>
+          {option}
+        </button>
+      ))}
+    </div>
+  );
 }
